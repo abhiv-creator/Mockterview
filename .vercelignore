@@ -1,0 +1,8 @@
+.git
+.next
+node_modules
+coverage
+.venv-whisper
+models/whisper
+.env*
+!.env.example
