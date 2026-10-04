@@ -4,4 +4,4 @@ This is particularly built to help them face their fears in an interview and  im
 
 
 
-![Screenshot 2026-10-04 204202.png…]()
+<img width="1301" height="1003" alt="Screenshot 2026-10-04 204202" src="https://github.com/user-attachments/assets/c9902039-91ff-4de0-a0b9-6f96d060893a" />
