@@ -3,4 +3,5 @@ People get nervous before technical mock interviews, oral exams, or public prese
 This is particularly built to help them face their fears in an interview and  improve themselves.
 
 
-![Uploading Screenshot 2026-10-04 204202.png…]()
+
+![Screenshot 2026-10-04 204202.png…]()
