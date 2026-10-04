@@ -6,3 +6,4 @@ coverage/
 !.env.example
 .venv-whisper/
 models/whisper/
+.vercel

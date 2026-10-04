@@ -2,7 +2,11 @@
 
 Mockterview is a local-first voice practice coach for technical interviews, oral exams, and presentations. Record an answer, save it, and get a clarity score, detected filler words, technical points, and suggestions for improvement.
 
-> **Demo:** [http://localhost:3000](http://localhost:3000) after starting the development server. This is a local address, not a public deployment.
+> **Public demo:** [https://abhiv-creator-fantastic-potato.vercel.app](https://abhiv-creator-fantastic-potato.vercel.app)
+>
+> **Run locally:** [http://localhost:3000](http://localhost:3000) after starting the development server.
+
+The hosted demo does not include the local Whisper runtime or model weights. Audio recording/playback works, but transcription-based audio evaluation requires running locally and following the Whisper setup below. The hosted app can evaluate submitted transcripts using its built-in evaluator.
 
 ## Features
 
