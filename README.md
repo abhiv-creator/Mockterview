@@ -1,6 +1,7 @@
 # Mockterview
-
 Mockterview is a local-first voice practice coach for technical interviews, oral exams, and presentations. Record an answer, save it, and get a clarity score, detected filler words, technical points, and suggestions for improvement.
+
+<img width="1301" height="1003" alt="Mockterview dashboard" src="https://github.com/user-attachments/assets/c9902039-91ff-4de0-a0b9-6f96d060893a" />
 
 > **Public demo:** [https://abhiv-creator-fantastic-potato.vercel.app](https://abhiv-creator-fantastic-potato.vercel.app)
 >
