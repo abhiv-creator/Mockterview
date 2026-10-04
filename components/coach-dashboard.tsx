@@ -23,6 +23,7 @@ import {
   Volume2,
   WandSparkles,
 } from "lucide-react";
+import Image from "next/image";
 import { useMemo, useState } from "react";
 import { AudioVisualizer } from "@/components/audio-visualizer";
 import { useAudioRecorder, type RecorderError } from "@/hooks/use-audio-recorder";
@@ -294,6 +295,14 @@ export function CoachDashboard() {
 
         <div className="dashboard">
           <section className="brand-lockup" aria-label="Mockterview">
+            <Image
+              className="brand-lockup__logo"
+              src="/mockterview-logo.png"
+              alt=""
+              width={130}
+              height={100}
+              priority
+            />
             <div>
               <p className="brand-lockup__wordmark">Mockterview</p>
               <span className="brand-lockup__strap">PREPARE. PRACTICE. PERFORM.</span>

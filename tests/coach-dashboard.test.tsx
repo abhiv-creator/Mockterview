@@ -35,6 +35,8 @@ describe("CoachDashboard", () => {
     render(<CoachDashboard />);
 
     expect(screen.getByText("Mockterview", { selector: ".brand-lockup__wordmark" })).toBeVisible();
+    expect(document.querySelector<HTMLImageElement>(".brand-lockup__logo"))
+      .toHaveAttribute("src", expect.stringContaining("mockterview-logo.png"));
     expect(screen.getByRole("button", { name: /start recording/i })).toBeInTheDocument();
     expect(screen.getByRole("button", { name: /save & evaluate/i })).toBeDisabled();
     expect(screen.getByRole("heading", { name: "Improvement" })).toBeInTheDocument();

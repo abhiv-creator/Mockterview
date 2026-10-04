@@ -97,10 +97,11 @@ button:focus-visible, a:focus-visible { outline: 3px solid rgba(126, 204, 255, 0
 h1 { margin: 0; color: var(--text); font-size: clamp(24px, 2.3vw, 31px); font-weight: 650; letter-spacing: -1.1px; line-height: 1.2; }
 .page-subtitle { margin: 8px 0 0; color: rgba(177, 198, 215, 0.85); font-size: 12px; }
 .brand-lockup {
-  display: flex; align-items: center; justify-content: center; padding: 18px 20px 12px; margin-bottom: 24px;
+  display: flex; align-items: center; justify-content: center; gap: 20px; padding: 18px 20px 12px; margin-bottom: 24px;
   border: 1px solid var(--line); border-radius: 18px; background: linear-gradient(180deg, rgba(22, 31, 38, 0.8), rgba(16, 24, 30, 0.92));
   box-shadow: 0 10px 25px rgba(8, 12, 16, 0.2);
 }
+.brand-lockup__logo { width: clamp(70px, 9vw, 130px); height: auto; flex: 0 0 auto; border-radius: 12px; }
 .brand-lockup__wordmark {
   margin: 0;
   font-size: clamp(2.3rem, 6vw, 7rem);
@@ -291,7 +292,8 @@ h1 { margin: 0; color: var(--text); font-size: clamp(24px, 2.3vw, 31px); font-we
   .streak { font-size: 0; }
   .streak__dot { width: 8px; height: 8px; }
   .dashboard { padding: 24px 14px 18px; }
-  .brand-lockup { padding: 15px 10px 12px; margin-bottom: 20px; }
+  .brand-lockup { gap: 9px; padding: 15px 10px 12px; margin-bottom: 20px; }
+  .brand-lockup__logo { width: 48px; }
   .brand-lockup__wordmark { font-size: clamp(1.65rem, 8vw, 2.8rem); }
   .brand-lockup__strap { letter-spacing: 0.22em; font-size: 0.55rem; }
   .page-intro { align-items: flex-start; gap: 12px; margin-bottom: 20px; }
